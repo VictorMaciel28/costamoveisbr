@@ -15,7 +15,7 @@ class Navbar extends Component {
 								<div className="col-md-7">
 									<div className="ltn__top-bar-menu">
 										<ul>
-											<li><a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i className="icon-mail" /> contato@costamoveisbr.com</a></li>
+											<li><a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i className="icon-mail" /> contato@costaimoveisbr.com</a></li>
 											<li><a href="locations.html"><i className="icon-placeholder" /> Itatiaia, RJ</a></li>
 										</ul>
 									</div>
