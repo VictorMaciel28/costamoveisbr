@@ -25,7 +25,7 @@ class Banner extends Component {
 				                    </a>
 				                  </div>
 				                  <h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Costa Imóveis | Imobiliária em Resende - RJ</h6>
-				                  <h3 className="slide-title animated faster">Prepare-se para<br />o estraordinário</h3>
+				                  <h3 className="slide-title animated faster">Prepare-se para<br />o extraordinário</h3>
 				                  <div className="slide animated faster">
 				                    <p>Venda e administração de alocação <br/>Somos especialistas em realizar bons negócios!</p>
 				                  </div>
