@@ -22,13 +22,13 @@ class BannerV6 extends Component {
 						<div className="col-lg-12 align-self-center">
 							<div className="slide-item-car-dealer-form">
 							<div className="section-title-area ltn__section-title-2 text-center">
-								<h1 className="section-title  text-color-white">Find Your <span className="ltn__secondary-color-3">Perfect</span> Home</h1>
+								{/* <h1 className="section-title  text-color-white">Encontre  <span className="ltn__secondary-color-3">Perfect</span> Home</h1> */}
 							</div>
 							<div className="ltn__car-dealer-form-tab">
 								<div className="ltn__tab-menu  text-uppercase text-center">
 								<div className="nav">
-									<a className="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i className="fas fa-home" />Rent Home</a>
-									<a data-bs-toggle="tab" href="#ltn__form_tab_1_2" className><i className="fas fa-home" />Sale Home</a>
+									<a className="active show" data-bs-toggle="tab" href="#ltn__form_tab_1_1"><i className="fas fa-home" />Alugar</a>
+									<a data-bs-toggle="tab" href="#ltn__form_tab_1_2" className><i className="fas fa-home" />Comprar</a>
 								</div>
 								</div>
 								<div className="tab-content pb-10">
@@ -37,39 +37,30 @@ class BannerV6 extends Component {
 									<form action="#" className="ltn__car-dealer-form-box row"> 
 										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-car col-lg-3 col-md-6">
 										<select className="nice-select">
-											<option>Property Type</option>
-											<option>Apartment</option>
-											<option>Co-op</option>
-											<option>Condo</option>
-											<option>Single Family Home</option>
+											<option>Tipo de Imóvel</option>
+											<option>Casa</option>
+											<option>Apartamento</option>
 										</select>
 										</div> 
 										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-meter col-lg-3 col-md-6">
 										<select className="nice-select">
-											<option>Location</option>
-											<option>chicago</option>
-											<option>London</option>
-											<option>Los Angeles</option>
-											<option>New York</option>
-											<option>New Jersey</option>
+											<option>Localidades</option>
+											<option>Resende</option>
+											<option>Itatiaia</option>
 										</select>
 										</div> 
 										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-3 col-md-6">
 										<select className="nice-select">
-											<option>Sub Location</option>
-											<option>Bayonne</option>
-											<option>Greenville</option>
-											<option>Manhattan</option>
-											<option>Queens</option>
-											<option>The Heights</option>
-											<option>Upper East Side</option>
-											<option>West Side</option>
+											<option>Faixa de Valor</option>
+											<option>300-499</option>
+											<option>500-899</option>
+											<option>900+</option>
 										</select>
 										</div>
 										<div className="ltn__car-dealer-form-item ltn__custom-icon ltn__icon-calendar col-lg-3 col-md-6">
 										<div className="btn-wrapper text-center mt-0 go-top">
 											{/* <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> */}
-											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Search</Link>
+											<Link to="/shop-right-sidebar" className="btn theme-btn-1 btn-effect-1 text-uppercase">Buscar</Link>
 										</div>
 										</div>
 									</form>

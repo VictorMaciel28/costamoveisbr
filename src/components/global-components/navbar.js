@@ -16,6 +16,7 @@ class Navbar extends Component {
 									<div className="ltn__top-bar-menu">
 										<ul>
 											<li><a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i className="icon-mail" /> contato@costaimoveisbr.com</a></li>
+											<li><a href="https://wa.me/5524999276376"><i className="icon-whatsapp" />(24) 99927-6376</a></li>
 											<li><a href="locations.html"><i className="icon-placeholder" /> Itatiaia, RJ</a></li>
 										</ul>
 									</div>
@@ -57,7 +58,7 @@ class Navbar extends Component {
 							</div>
 						</div>
 					</div>
-					<div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
+					{/* <div className="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
 						<div className="container">
 							<div className="row">
 								<div className="col">
@@ -101,7 +102,7 @@ class Navbar extends Component {
 													<li>
 														<Link to="/">Instagram</Link>
 													</li>
-													{/* <li className="menu-icon"><Link to="/about">About</Link>
+													<li className="menu-icon"><Link to="/about">About</Link>
 														<ul>
 															<li><Link to="/about">About</Link></li>
 															<li><Link to="/service">Services</Link></li>
@@ -174,13 +175,13 @@ class Navbar extends Component {
 															</li>
 														</ul>
 													</li>
-													<li><Link to="/contact">Contact</Link></li> */}
+													<li><Link to="/contact">Contact</Link></li>
 												</ul>
 											</div>
 										</nav>
 									</div>
 								</div>
-								{/* <div className="col ltn__header-options ltn__header-options-2 mb-sm-20">
+								<div className="col ltn__header-options ltn__header-options-2 mb-sm-20">
 									
 									<div className="header-search-wrap">
 										<div className="header-search-1">
@@ -227,10 +228,10 @@ class Navbar extends Component {
 											</svg>
 										</a>
 									</div>
-								</div>  */}
+								</div> 
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</header>
 				<div id="ltn__utilize-mobile-menu" className="ltn__utilize ltn__utilize-mobile-menu">
 					<div className="ltn__utilize-menu-inner ltn__scrollbar">

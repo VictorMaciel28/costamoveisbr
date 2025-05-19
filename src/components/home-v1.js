@@ -14,23 +14,27 @@ import Testimonial from './section-components/testimonial-v1';
 import BlogSlider from './blog-components/blog-slider-v1';
 import CallToActionV1 from './section-components/call-to-action-v1';
 import Footer from './global-components/footer';
+import VideoV4 from './section-components/video-v4';
+import BannerV6 from './section-components/banner-v6';
 
 const Home_V1 = () => {
     return <div>
         <Navbar />
-        <Banner />
+        <BannerV6 />
+        {/* <VideoV4 /> */}
+        <ProSlider />
+        {/* <Banner /> */}
         {/* <SearchForm /> */}
-        {/* <Aboutv1 /> */}
         {/* <Counter /> */}
         {/* <AboutV2 /> */}
         {/* <Apartment /> */}
         {/* <VideoV1 /> */}
         {/* <Category /> */}
 
-        <Featuresv1 customClass="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---"/>
-        <ProSlider />
+        {/* <Featuresv1 customClass="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---"/> */}
+        <Aboutv1 />
         <BlogSlider customClass="section-subtitle-2"/>
-        <Testimonial />
+        {/* <Testimonial /> */}
         <CallToActionV1 />
         <Footer />
     </div>

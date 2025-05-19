@@ -8073,7 +8073,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   max-width: 850px;
 }
 .ltn__slide-item-7 .slide-title {
-  font-size: 90px;
+  font-size: 85px;
   line-height: 1;
 }
 
@@ -10842,6 +10842,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .section-subtitle-2 {
   display: inline-block;
   padding: 5px 20px;
+  margin-top:30px;
   border-radius: 25px;
   position: relative;
 }
